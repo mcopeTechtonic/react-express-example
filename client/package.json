@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "parcel-bundler": "^1.12.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
@@ -10,7 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "echo hello && parcel build public/index.html --public-url ./",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

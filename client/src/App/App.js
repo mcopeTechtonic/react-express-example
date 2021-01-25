@@ -6,6 +6,7 @@ import List from './pages/List';
 
 class App extends Component {
   render() {
+    console.log("Rendered the app!");
     const App = () => (
       <div>
         <Switch>

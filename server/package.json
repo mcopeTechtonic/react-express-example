@@ -5,8 +5,8 @@
   "main": "index.js",
   "author": "Nicolas Burgess",
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "start": "node index.js & npm run heroku-postbuild",
+    "heroku-postbuild": "cd ../client && npm install --only=dev && npm run build"
   },
   "keywords": [],
   "license": "ISC",
